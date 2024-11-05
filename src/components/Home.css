@@ -1,0 +1,44 @@
+.section-contenido-presentacion{
+    border-color: bisque;
+    border-radius: 40px;
+    
+}
+.article-presentacion-uno{
+    text-align: center;
+    box-shadow: 10px 10px lightblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+
+}
+.contenido{
+  display: flex;
+  flex-direction: row;
+
+}
+.flex-item-left{
+    flex: 50%;
+}
+.flex-item-right{
+    flex: 50%;
+}
+
+.contenido-especificacion-tecnica{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+.icons{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin:0 auto;
+}
+
+@media screen and (max-width:750px){
+    .contenido{
+        flex-direction: column;
+    }
+}
