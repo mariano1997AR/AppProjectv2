@@ -11,7 +11,7 @@ export const FooterPage = () => {
         <section className="social-icons">
           <a href="https://github.com/mariano1997AR" target='_blank'><FontAwesomeIcon className='icon-page' icon={faGithub} /></a>
           <a href="https://www.instagram.com/gmsoluciones_ar/"><FontAwesomeIcon className='icon-page'  icon={faLinkedin} /></a>
-          <a href="mailto:Guille.martinotti2019@gmail.com"><FontAwesomeIcon className='icon-page'  icon={faEnvelope} /></a>
+          <a href="mailto:mariano.andres1024@gmail.com"><FontAwesomeIcon className='icon-page'  icon={faEnvelope} /></a>
           <Link to="/"><FontAwesomeIcon className='icon-page' icon={faHouse} /></Link>
 
         </section>
