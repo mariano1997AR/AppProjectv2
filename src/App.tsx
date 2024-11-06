@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import '/home/mariano/Documentos/appProject/node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '/home/mariano/Documentos/appProject/node_modules/bootstrap/dist/js/bootstrap.min.js';
+import 'C:/Users/manumiki/Documents/AppProject/AppProjectv2/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'C:/Users/manumiki/Documents/AppProject/AppProjectv2/node_modules/bootstrap/dist/js/bootstrap.min.js';
 import { MenuNav } from './components/MenuNav'
 import { Loader } from './components/Loader';
 
