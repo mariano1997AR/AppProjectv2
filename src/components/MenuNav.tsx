@@ -4,14 +4,11 @@ import { Home } from './Home';
 import { Demo } from './Demo';
 import { Support } from './Support';
 import { FooterPage } from './FooterPage';
-import { Dashboard } from './Dashboard';
-import ProtectedRoute from './protectedRules/ProtectedRule';
-import { AuthProvider } from './AuthContext';
+
 
 export const MenuNav: React.FC = () => {
     return (
         <>
-            <AuthProvider>
                 <Router>
                     <header className='shadow mb-2 px-4 '>
                         <div className='relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between'>
@@ -37,23 +34,13 @@ export const MenuNav: React.FC = () => {
                     <Routes>
                         <Route path='/' element={<Home></Home>}></Route>
                         <Route path='/home/demo' element={<Demo></Demo>}></Route>
-
                         <Route path='/home/support' element={<Support></Support>}></Route>
-                        <Route
-                            path="/dashboard"
-                            element={
-                                <ProtectedRoute>
-                                    <Dashboard />
-                                </ProtectedRoute>
-                            }
-                        />
-                        <Route path="*" element={<Home />} />
                     </Routes>
 
                     <FooterPage></FooterPage>
                 </Router>
 
-            </AuthProvider>
+        
         </>
     )
 }
