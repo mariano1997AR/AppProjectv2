@@ -22,9 +22,7 @@
   color:#000;
   opacity:0.9;
   }
-  .gm-soluciones{
-  background-image: url('../../assets/img/gm\ soluciones.jpeg');
-  }
+
   /* efecto hover*/
   .social-icons a:hover{
   background-color: #111;
